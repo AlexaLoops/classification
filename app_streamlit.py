@@ -17,4 +17,5 @@ if st.button("Prediksi"):
 columns=["kill","assist","death","turret"])
 	st.success(f"Hasil Prediksi : {loaded_model.predict(data_baru)[0]}")
 	st.balloons()
-st.caption("Dibuat dengan :heart: oleh Adi Setiawan")
+st.caption("Dibuat dengan :heart: oleh Alexander")
+
